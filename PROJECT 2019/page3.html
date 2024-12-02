@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kismat Muhidin Apartment - Payment</title>
+    <link rel="stylesheet" href="styles3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Kismat Muhidin Apartment</h1>
+        <h2>Secure Payment Portal</h2>
+    </header>
+
+    <main>
+        <section class="payment-info">
+            <h2>Bank Transfer Details</h2>
+            <p>Please use the details below to make your payment:</p>
+            <ul>
+                <li><strong>Bank Name:</strong> XYZ Bank</li>
+                <li><strong>Account Name:</strong> Kismat Muhidin Apartments</li>
+                <li><strong>Account Number:</strong> 1234567890</li>
+                <li><strong>SWIFT Code:</strong> XYZB123</li>
+            </ul>
+            <p>After completing the payment, please provide your payment details and upload proof of payment using the form below.</p>
+        </section>
+
+        <section class="payment-form">
+            <h2>Payment Form</h2>
+            <form action="payment-confirmation.php" method="POST" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="amount">Amount Paid (USD):</label>
+                    <input type="number" id="amount" name="amount" required>
+                </div>
+                <div class="form-group">
+                    <label for="reference">Transaction Reference:</label>
+                    <input type="text" id="reference" name="reference" required>
+                </div>
+                <div class="form-group">
+                    <label for="proof">Upload Proof of Payment:</label>
+                    <input type="file" id="proof" name="proof" accept="image/*,application/pdf" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn">Submit Payment</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="contact">
+            <h2>Need Assistance?</h2>
+            <p>If you have any questions about the payment process, feel free to contact us:</p>
+            <div class="contact-icons">
+                <a href="https://wa.me/your-number" target="_blank">
+                    <img src="whatsapp-icon.png" alt="WhatsApp">
+                    <p>Chat on WhatsApp</p>
+                </a>
+                <a href="mailto:your-email@example.com">
+                    <img src="email-icon.png" alt="Email">
+                    <p>Email Us</p>
+                </a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,146 @@
+
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonts and Background */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url('building.webp') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: #ffbb33;
+}
+
+/* Why Choose Us Section */
+.why-choose-us {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    width: 70%;
+    border-radius: 10px;
+}
+
+.why-choose-us h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #ffbb33;
+}
+
+.why-choose-us p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Gallery Section */
+.gallery {
+    text-align: center;
+    margin: 30px auto;
+}
+
+.slideshow-container {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.text {
+    color: #fff;
+    font-size: 1.2rem;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Pricing Section */
+.pricing {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.pricing-details {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pricing-card {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.pricing-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 1.5rem;
+    color: #ff5722;
+    margin: 10px 0;
+}
+
+.btn {
+    background: linear-gradient(45deg, #ff5722, #ffbb33);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background: linear-gradient(45deg, #ffbb33, #ff5722);
+}
+
+/* Contact Section */
+.contact {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.icon img {
+    width: 50px;
+    margin-bottom: 5px;
+}
+
+.icon p {
+    margin-top: 5px;
+}

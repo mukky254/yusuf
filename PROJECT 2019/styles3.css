@@ -1,0 +1,120 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonts and Background */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url('building.webp') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 2rem;
+    color: #ffbb33;
+}
+
+header h2 {
+    font-size: 1.2rem;
+    color: #ff5722;
+    margin-top: 10px;
+}
+
+/* Payment Info Section */
+.payment-info {
+    text-align: center;
+    margin: 30px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    width: 70%;
+    border-radius: 10px;
+}
+
+.payment-info h2 {
+    color: #ffbb33;
+    font-size: 2rem;
+}
+
+.payment-info ul {
+    list-style-type: none;
+    margin: 20px 0;
+    padding: 0;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+/* Payment Form Section */
+.payment-form {
+    margin: 30px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    width: 70%;
+    border-radius: 10px;
+}
+
+.payment-form h2 {
+    text-align: center;
+    color: #ffbb33;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    background: linear-gradient(45deg, #ff5722, #ffbb33);
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #ffbb33, #ff5722);
+}
+
+/* Contact Section */
+.contact {
+    text-align: center;
+    margin: 30px auto;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.contact-icons img {
+    width: 50px;
+}
+
+.contact-icons p {
+    margin-top: 5px;
+    color: #fff;
+}

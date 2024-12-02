@@ -1,0 +1,102 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonts */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url('building.webp') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+/* Header */
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #ffbb33;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    color: #ffbb33;
+}
+
+/* Welcome Section */
+.welcome-section {
+    text-align: center;
+    margin-top: 20%;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+    width: 80%;
+    max-width: 700px;
+    margin: auto;
+}
+
+.welcome-section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #ffbb33;
+}
+
+.welcome-section .highlight {
+    color: #ff5722;
+}
+
+.welcome-section p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+.btn {
+    background: linear-gradient(45deg, #ff5722, #ffbb33);
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    box-shadow: 0px 4px 10px rgba(255, 87, 34, 0.7);
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background: linear-gradient(45deg, #ffbb33, #ff5722);
+    box-shadow: 0px 6px 15px rgba(255, 87, 34, 0.9);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.8);
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #ddd;
+}
